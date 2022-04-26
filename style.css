@@ -1,0 +1,37 @@
+input[type=text]:focus, input[type=password]:focus{
+    background-color: azure;
+    outline: none;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: #28282B;
+}
+
+hr{
+    border: 1px solid white;
+    margin-bottom:  25px;
+}
+
+.email,.pass,.com-pass{
+    width: 400px;
+}
+
+.registerbtn{
+    background-color: green;
+    color: whitesmoke;
+    padding:  16px 20px;
+    margin:  8px 0;
+    border: none;
+    cursor: pointer;
+    width: 400px;
+    opacity: 1;
+}
+
+
+a{
+    color: blue;
+}
+.signin{
+    background-color: whitesmoke;
+}

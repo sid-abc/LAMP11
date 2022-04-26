@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: #28282B;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    border-bottom: 3px solid  orange;
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+
+  }
+  
+  li a:hover:not(.active) {
+    background-color: orange;
+  }
+  
+
+  #project{
+      background-color: orange;
+  }
+
+  .main_heading{
+      color: white;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 7rem;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+  }
+
+
+  .names{
+    font-size: 4rem;
+    color: antiquewhite;
+  }

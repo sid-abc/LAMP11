@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: #28282B;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    border-bottom: 3px solid  orange;
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+
+  }
+  
+  li a:hover:not(.active) {
+    background-color: orange;
+  }
+  
+
+  #skills{
+      background-color: orange;
+  }
+
+  .main_heading{
+      color: white;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 7rem;
+      margin-top: 50px;
+      margin-bottom: 60px;
+  }
+
+
+  .Card{
+    border: 2px solid white;
+    width: 260px;
+    position: absolute;
+  
+    top: 25rem;
+    left: 2rem;
+    
+  }
+
+
+  .Card_2{
+    border: 2px solid white;
+    width: 260px;
+    position: absolute;
+    left: 22rem;
+    top: 25rem;
+
+    
+  }
+
+
+
+  .Card_3{
+    border: 2px solid white;
+    width: 260px;
+    position: absolute;
+    left: 42rem;
+    top: 25rem;
+
+    
+  }
+
+
+
+  
+  .Card_4{
+    border: 2px solid white;
+    width: 260px;
+    position: absolute;
+    left: 62rem;
+    top: 25rem;
+
+    
+  }
+  .Card_5{
+    border: 2px solid white;
+    width: 260px;
+    position: absolute;
+    left: 82rem;
+    top: 25rem;
+
+    
+  }
+
+  .Card_6{
+    border: 2px solid white;
+    width: 260px;
+    position: absolute;
+    left: 102rem;
+    top: 25rem;
+
+    
+  }
+
+
+
+  #reac{
+    height: 260px;
+  }
+
+  #php{
+    height: 260px;
+  }
+
+  #python{
+    height: 260px;
+  }
+
+
+
+
+  

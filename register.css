@@ -1,0 +1,118 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+    serif;
+    background-color:rgb(31,206,203);
+    color:white;
+    }
+    * {
+    box-sizing:
+    border-box;
+    }
+    .ses
+    {
+    color:white;
+    bottom:10px;
+    right: 1px;
+    position:absolute;
+    }
+    .container {
+    padding: 16px;
+    width:450px;
+    background-color: whitesmoke;
+    }
+    .academic
+    {
+    padding: 16px;
+    width:450px;
+    background-color: whitesmoke;
+    }
+    input
+    {
+    border-radius: 3px;
+}
+input[type=email],
+input[type=password],input[type=date] {
+width: 100%;
+padding: 12px;
+margin: 5px 0 22px 0;
+display:
+inline-block;
+border-width: 1px;
+background: white;
+border-color: beige;
+}
+input[type=checkbox]{
+margin-left: -100px;
+background-color: white;
+}
+#fname {
+width:
+45%;
+padding: 12px;
+margin: 5px 20px 22px 0;
+float: left;
+border-width:1px;
+background:white;
+border-color:
+beige;
+}
+#lname {
+width:
+45%;
+padding: 12px;
+margin: 5px 0 22px 20px;
+float: left;
+border-width: 1px;
+background:
+white;
+border-color:
+beige;
+}
+#b1 {
+background-color: #50a84f;
+color:
+white;
+padding: 16px 20px;
+margin: 8px 0;
+border:
+none;
+cursor: pointer;
+width: 100%;
+opacity: 0.9;
+}
+button:hover
+{
+opacity: 1;
+}
+h1 {
+font-family: sans-serif;
+text-align: center;
+font-size: 30px;
+max-width: 600px;
+position:relative;
+}
+h1:before {
+content: "";
+display:
+block;
+width: 140px;
+height: 2px;
+background:
+rgb(31,206,203);
+left: 0;
+top:
+50%;
+position: absolute;
+}
+h1:after {
+content:
+"";
+display: block;
+width: 140px;
+height:
+2px;
+background:white;
+right: 0;
+top: 50%;
+position: absolute;
+}
